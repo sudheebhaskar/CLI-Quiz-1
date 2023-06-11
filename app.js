@@ -45,6 +45,7 @@ for(var i=0;i<questions.length; i++){
   var currentQuestion = questions[i];
   play(currentQuestion.question, currentQuestion.answer)
 }
-
+    
 console.log("Yay! You scored: ", score);
 
+  
